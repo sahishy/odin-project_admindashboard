@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Dashboard</title>
+    <link rel="shortcut icon" href="assets/favicon.ico">
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+    
+    <div class="main">
+        
+        <div class="dashboard dashboard-hidden" id="dashboard">
+
+            <div class="dashboard-item neutral-contrast">
+                
+                <span class="material-symbols-rounded icon-large icon-fill">dashboard</span>
+
+                <h1 class="neutral-contrast">
+                    Dashboard
+                </h1>
+
+            </div>
+
+            <div class="dashboard-separator"></div>
+
+            <div class="dashboard-item dashboard-button dashboard-button-selected neutral-contrast">
+                
+                <span class="material-symbols-rounded icon-small icon-fill">Home</span>
+
+                <h3 class="neutral-contrast dashboard-button-label">
+                    Home
+                </h3>
+
+            </div>
+
+            <div class="dashboard-item dashboard-button neutral-contrast">
+                
+                <span class="material-symbols-rounded icon-small icon-fill">Person</span>
+
+                <h3 class="neutral-contrast dashboard-button-label">
+                    Profile
+                </h3>
+
+            </div>
+
+            <div class="dashboard-item dashboard-button neutral-contrast">
+                
+                <span class="material-symbols-rounded icon-small icon-fill">chat_bubble</span>
+
+                <h3 class="neutral-contrast dashboard-button-label">
+                    Messages
+                </h3>
+
+            </div>
+
+            <div class="dashboard-item dashboard-button neutral-contrast">
+                
+                <span class="material-symbols-rounded icon-small icon-fill">schedule</span>
+
+                <h3 class="neutral-contrast dashboard-button-label">
+                    History
+                </h3>
+
+            </div>
+
+            <div class="dashboard-item dashboard-button neutral-contrast">
+                
+                <span class="material-symbols-rounded icon-small icon-fill">file_copy</span>
+
+                <h3 class="neutral-contrast dashboard-button-label">
+                    Tasks
+                </h3>
+
+            </div>
+
+            <div class="dashboard-item dashboard-button neutral-contrast">
+                
+                <span class="material-symbols-rounded icon-small icon-fill">groups</span>
+
+                <h3 class="neutral-contrast dashboard-button-label">
+                    Communities
+                </h3>
+
+            </div>
+
+            <div class="dashboard-separator"></div>
+
+            <div class="dashboard-item dashboard-button neutral-contrast">
+                
+                <span class="material-symbols-rounded icon-small icon-fill">settings</span>
+
+                <h3 class="neutral-contrast dashboard-button-label">
+                    Settings
+                </h3>
+
+            </div>
+
+            <div class="dashboard-item dashboard-button neutral-contrast">
+                
+                <span class="material-symbols-rounded icon-small icon-fill">help</span>
+
+                <h3 class="neutral-contrast dashboard-button-label">
+                    Support
+                </h3>
+
+            </div>
+
+            <div class="dashboard-item dashboard-button neutral-contrast">
+                
+                <span class="material-symbols-rounded icon-medismallum icon-fill">verified_user</span>
+
+                <h3 class="neutral-contrast dashboard-button-label">
+                    Privacy
+                </h3>
+
+            </div>
+
+        </div>
+    
+        <div class="home">
+    
+            <div class="topbar">
+    
+                <div class="topbar-top">
+
+                    <div class="topbar-top-left">
+
+                        <span class="material-symbols-rounded icon-button icon-small dashboard-toggle" id="dashboard_toggle">menu</span>
+
+                        <span class="material-symbols-rounded icon-button icon-small">search</span>
+
+                        <div class="topbar-search"></div>
+
+                    </div>
+
+                    <div class="topbar-top-right">
+
+                        <span class="material-symbols-rounded icon-button icon-small">notifications</span>
+
+                        <img src="assets/pfp.jpg" class="profile-picture">
+
+                        <h3>
+                            Sahish
+                        </h3>
+
+                    </div>
+                    
+                </div>
+
+                <div class="topbar-bottom">
+                    
+                    <div class="topbar-bottom-left">
+
+                        <img src="assets/pfp.jpg" class="topbar-profile-picture">
+
+                        <div class="topbar-welcome">
+
+                            <p>
+                                Hi there,
+                            </p>
+
+                            <h1 style="margin: 0.2em 0 0.2em 0">
+                                Sahish
+
+                                <p style="display: inline;">
+                                    (@sahishy)
+                                </p>
+                            </h1>
+
+                        </div>
+
+                    </div>
+
+                    <div class="topbar-bottom-right">
+
+                        <button class="primary-button">
+                            New
+                        </button>
+
+                        <button class="primary-button">
+                            Upload
+                        </button>
+
+                        <button class="primary-button">
+                            Share
+                        </button>
+
+                    </div>
+
+                </div>
+    
+            </div>
+
+            <div class="responsive-holder">
+
+                <div class="button-bar">
+
+                    <button class="primary-button">
+                        New
+                    </button>
+    
+                    <button class="primary-button">
+                        Upload
+                    </button>
+    
+                    <button class="primary-button">
+                        Share
+                    </button>
+    
+                </div>    
+
+                <div class="holder">
+
+                    <div class="holder-left">
+
+                        <h2 class="header">
+                            Your Projects
+                        </h2>
+
+                        <div class="projects">
+
+                            <div class="project">
+
+                                <div class="project-top">
+
+                                    <h4>
+                                        Super Cool Project
+                                    </h4>
+                
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam laborum in beatae maiores! Perspiciatis, officiis distinctio! Est commodi similique vel?
+                                    </p>
+
+                                </div>
+
+                                <div class="project-bottom">
+
+                                    <span class="material-symbols-rounded icon-button icon-small">star</span>
+                                    <span class="material-symbols-rounded icon-button icon-small">visibility</span>
+                                    <span class="material-symbols-rounded icon-button icon-small">share</span>
+
+                                </div>
+
+                            </div>
+        
+                            <div class="project">
+
+                                <div class="project-top">
+
+                                    <h4>
+                                        Less Cool Project
+                                    </h4>
+                
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, praesentium quas possimus quae id provident!
+                                    </p>
+
+                                </div>
+
+                                <div class="project-bottom">
+
+                                    <span class="material-symbols-rounded icon-button icon-small">star</span>
+                                    <span class="material-symbols-rounded icon-button icon-small">visibility</span>
+                                    <span class="material-symbols-rounded icon-button icon-small">share</span>
+
+                                </div>
+
+                            </div>
+
+                            <div class="project">
+
+                                <div class="project-top">
+
+                                    <h4>
+                                        Impossible App
+                                    </h4>
+                
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere est, nesciunt voluptates id assumenda illo veritatis quia. Ex blanditiis error minima accusamus laboriosam incidunt iste.
+                                    </p>
+
+                                </div>
+
+                                <div class="project-bottom">
+
+                                    <span class="material-symbols-rounded icon-button icon-small">star</span>
+                                    <span class="material-symbols-rounded icon-button icon-small">visibility</span>
+                                    <span class="material-symbols-rounded icon-button icon-small">share</span>
+
+                                </div>
+
+                            </div>
+
+                            <div class="project">
+
+                                <div class="project-top">
+
+                                    <h4>
+                                        Easy Peasy App
+                                    </h4>
+                
+                                    <p>
+                                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. In, soluta ipsum repellendus, reprehenderit perferendis doloribus omnis odio delectus suscipit tempora magni, nobis beatae! Aliquam similique assumenda, asperiores molestiae eveniet animi ratione architecto repudiandae qui provident laboriosam blanditiis! Nobis, aut esse?
+                                    </p>
+
+                                </div>
+
+                                <div class="project-bottom">
+
+                                    <span class="material-symbols-rounded icon-button icon-small">star</span>
+                                    <span class="material-symbols-rounded icon-button icon-small">visibility</span>
+                                    <span class="material-symbols-rounded icon-button icon-small">share</span>
+
+                                </div>
+
+                            </div>
+
+                            <div class="project">
+
+                                <div class="project-top">
+
+                                    <h4>
+                                        Ad Blocker
+                                    </h4>
+                
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate, repellat aliquid qui minus nisi ducimus deserunt, aspernatur quo ex adipisci rerum dolore fugiat itaque exercitationem necessitatibus voluptates laudantium cupiditate nam.
+                                    </p>
+
+                                </div>
+
+                                <div class="project-bottom">
+
+                                    <span class="material-symbols-rounded icon-button icon-small">star</span>
+                                    <span class="material-symbols-rounded icon-button icon-small">visibility</span>
+                                    <span class="material-symbols-rounded icon-button icon-small">share</span>
+
+                                </div>
+
+                            </div>
+
+                            <div class="project">
+
+                                <div class="project-top">
+
+                                    <h4>
+                                        Money Maker
+                                    </h4>
+                
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus excepturi accusantium perferendis, necessitatibus optio at architecto aperiam, deserunt provident est labore! Quam nostrum reiciendis voluptatem odit itaque tempore, repudiandae nisi perferendis. Officia nihil blanditiis porro nulla itaque, sunt odit eius.
+                                    </p>
+
+                                </div>
+
+                                <div class="project-bottom">
+
+                                    <span class="material-symbols-rounded icon-button icon-small">star</span>
+                                    <span class="material-symbols-rounded icon-button icon-small">visibility</span>
+                                    <span class="material-symbols-rounded icon-button icon-small">share</span>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="holder-right">
+
+                        <h2 class="header">
+                            Announcements
+                        </h2>
+        
+                        <div class="announcements">
+                            
+                            <div class="announcement">
+
+                                <h5>
+                                    Site Maintenance
+                                </h5>
+            
+                                <p>
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas, beatae. Possimus laborum ipsam magnam dolore fuga ratione saepe eius laboriosam.
+                                </p>
+
+                            </div>
+
+                            <div class="divider"></div>
+
+                            <div class="announcement">
+
+                                <h5>
+                                    Community Share Day
+                                </h5>
+            
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, sint? Enim consequatur aliquid cumque fugit.
+                                </p>
+
+
+                            </div>
+
+                            <div class="divider"></div>
+
+                            <div class="announcement">
+
+                                <h5>
+                                    Updated Privacy Policy
+                                </h5>
+            
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, voluptatibus?
+                                </p>
+
+
+                            </div>
+
+                        </div>
+                        
+                        <h2 class="header">
+                            Trending
+                        </h2>
+        
+                        <div class="trending">
+        
+                            <div class="trend">
+
+                                <img src="assets/pfp.jpg" class="profile-picture">
+
+                                <div class="trend-info">
+
+                                    <h5 style="margin-bottom: 0.2em;">
+                                        @coder3
+                                    </h5>
+
+                                    <p>
+                                        World Peace Builder
+                                    </p>
+
+                                </div>
+
+                            </div>
+
+                            <div class="trend">
+
+                                <img src="assets/pfp.jpg" class="profile-picture">
+
+                                <div class="trend-info">
+
+                                    <h5 style="margin-bottom: 0.2em;">
+                                        @sahishy
+                                    </h5>
+
+                                    <p>
+                                        Super Cool Project
+                                    </p>
+
+                                </div>
+
+                            </div>
+                            
+                            <div class="trend">
+
+                                <img src="assets/pfp.jpg" class="profile-picture">
+
+                                <div class="trend-info">
+
+                                    <h5 style="margin-bottom: 0.2em;">
+                                        @htmlcoder123
+                                    </h5>
+
+                                    <p>
+                                        Life Changing App
+                                    </p>
+
+                                </div>
+
+                            </div>
+
+                            <div class="trend">
+
+                                <img src="assets/pfp.jpg" class="profile-picture">
+
+                                <div class="trend-info">
+
+                                    <h5 style="margin-bottom: 0.2em;">
+                                        @sahishyfan5
+                                    </h5>
+
+                                    <p>
+                                        No Traffic Maker
+                                    </p>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                    
+
+                    </div>
+
+                </div>
+
+            </div>
+    
+        </div>
+
+    </div>
+
+</body>
+
+<script src="script.js"></script>
+
+</html>
